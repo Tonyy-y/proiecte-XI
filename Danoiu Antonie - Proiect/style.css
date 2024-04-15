@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+}
+
+.sidebar {
+    color: white;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(2, 2, 2);
+    border-right: 2px solid gray;
+}
+
+.sidebar h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;  
+    color: rgb(255, 21, 0);
+}
+
+.sidebar ul {
+    padding-top: 47%;
+}
+
+.sidebar ul li a {
+    color: white;
+    font-size: 30px;
+    transition: 0.5s;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    line-height: 100px;
+    border-top: 2px solid gray;
+    user-select: none;
+}
+
+.last {
+    border-bottom: 2px solid gray;
+}
+
+.sidebar ul li a:hover {
+    background-color: rgb(255, 21, 0);
+}
+
+.content {
+    color: white;
+}
+
+.problems {
+    padding-top: 100px;
+    padding-left: 20%;
+}
+
+.content h1 {
+    padding-top: 20px;
+    padding-left: 45%;
+    color: white;
+    font-size: 70px;
+}
+
+.problems h2 {
+    color: rgb(255, 21, 0);
+    font-size: 60px;
+}
+
+.problems h3 {
+    font-size: 40px;
+}
+
+.problems p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 5%;
+    font-size: 22px;
+}
+
+.problems pre {
+    font-size: 22px;
+    width: 95%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
